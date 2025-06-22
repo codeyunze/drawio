@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="395" y="90" width="150" height="460" as="geometry" />
+          <mxGeometry x="392" y="140" width="150" height="460" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="160" y="90" width="150" height="460" as="geometry" />
+          <mxGeometry x="157" y="140" width="150" height="460" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OlNXJpAAPlKyJvy7JP_H-5" target="OlNXJpAAPlKyJvy7JP_H-8">
           <mxGeometry relative="1" as="geometry" />
@@ -19,7 +19,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-5" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;controller-a&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="172" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OlNXJpAAPlKyJvy7JP_H-8" target="OlNXJpAAPlKyJvy7JP_H-11">
           <mxGeometry relative="1" as="geometry" />
@@ -30,7 +30,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-8" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;service-&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;interface-a&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="172" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OlNXJpAAPlKyJvy7JP_H-11" target="OlNXJpAAPlKyJvy7JP_H-13">
           <mxGeometry relative="1" as="geometry" />
@@ -41,22 +41,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-11" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;service-impl-a&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="172" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;module-a-core&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="168.75" y="90" width="132.5" height="30" as="geometry" />
+          <mxGeometry x="165.75" y="140" width="132.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-13" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dao-a&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="407" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;module-a-dao&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="403.75" y="90" width="132.5" height="30" as="geometry" />
+          <mxGeometry x="400.75" y="140" width="132.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="945" y="90" width="150" height="460" as="geometry" />
+          <mxGeometry x="862" y="140" width="150" height="460" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-26" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="710" y="90" width="150" height="460" as="geometry" />
+          <mxGeometry x="627" y="140" width="150" height="460" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OlNXJpAAPlKyJvy7JP_H-29" target="OlNXJpAAPlKyJvy7JP_H-32">
           <mxGeometry relative="1" as="geometry" />
@@ -67,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-29" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;controller-b&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="642" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OlNXJpAAPlKyJvy7JP_H-32" target="OlNXJpAAPlKyJvy7JP_H-35">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-32" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;service-&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;interface-b&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="642" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OlNXJpAAPlKyJvy7JP_H-35" target="OlNXJpAAPlKyJvy7JP_H-37">
           <mxGeometry relative="1" as="geometry" />
@@ -92,16 +92,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-35" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;service-impl-b&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="642" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;module-b-core&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="718.75" y="90" width="132.5" height="30" as="geometry" />
+          <mxGeometry x="635.75" y="140" width="132.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-37" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dao-b&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="877" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OlNXJpAAPlKyJvy7JP_H-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;module-b-dao&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="953.75" y="90" width="132.5" height="30" as="geometry" />
+          <mxGeometry x="870.75" y="140" width="132.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OlNXJpAAPlKyJvy7JP_H-42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;当模块b需要操作模块a相关数据表时，可以在模块b中引入模块a的dao包&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="627" y="70" width="323" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
