@@ -94,7 +94,7 @@
         <mxCell id="tLNlHLiC8Rr5Cy1QvCgU-24" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dao-a&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="486" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tLNlHLiC8Rr5Cy1QvCgU-25" value="启动模块、无业务代码&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;负责项目的启动和配置，通常包含了启动类、配置文件等。它可依赖于各个Core模块，并负责将它们组装起来形成一个可运行的应用程序。&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="tLNlHLiC8Rr5Cy1QvCgU-25" value="模块a的启动模块&lt;div&gt;无业务代码&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;负责项目的启动和配置，通常包含了启动类、配置文件等。它可依赖于各个Core模块，并负责将它们组装起来形成一个可运行的应用程序。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="-60" y="161" width="150" height="505" as="geometry" />
         </mxCell>
         <mxCell id="tLNlHLiC8Rr5Cy1QvCgU-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;module-a-startup&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
