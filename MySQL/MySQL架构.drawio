@@ -45,7 +45,7 @@
         <mxCell id="x1O2trK2bo9QjgoT-P59-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="640" width="520" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="x1O2trK2bo9QjgoT-P59-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="x1O2trK2bo9QjgoT-P59-17" target="x1O2trK2bo9QjgoT-P59-24">
+        <mxCell id="x1O2trK2bo9QjgoT-P59-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="x1O2trK2bo9QjgoT-P59-17" target="x1O2trK2bo9QjgoT-P59-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x1O2trK2bo9QjgoT-P59-17" value="InnoDB存储引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
