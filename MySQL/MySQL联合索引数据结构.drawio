@@ -32,7 +32,7 @@
           <mxGeometry x="400" y="90" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="680" height="20" as="geometry" />
+          <mxGeometry x="-10" y="40" width="1020" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-8" value="索引页" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="410" width="100" height="40" as="geometry" />
@@ -95,22 +95,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="630" width="320" height="20" as="geometry" />
+          <mxGeometry x="-160" y="530" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-34" value="数据页" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="650" width="100" height="40" as="geometry" />
+          <mxGeometry x="-50" y="550" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="300" y="630" width="320" height="20" as="geometry" />
+          <mxGeometry x="300" y="530" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-36" value="数据页" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="410" y="650" width="100" height="40" as="geometry" />
+          <mxGeometry x="410" y="550" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="760" y="630" width="320" height="20" as="geometry" />
+          <mxGeometry x="760" y="530" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-38" value="数据页" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="870" y="650" width="100" height="40" as="geometry" />
+          <mxGeometry x="870" y="550" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LhdZbFb5jw5E8dZrb60K-39" value="互相指向对方的地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="360" width="110" height="30" as="geometry" />
