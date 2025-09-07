@@ -10,6 +10,14 @@
         <mxCell id="nGicNdcI3gT5lanbww3e-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;NameServer集群&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="110" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="nGicNdcI3gT5lanbww3e-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGicNdcI3gT5lanbww3e-3" target="nGicNdcI3gT5lanbww3e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGicNdcI3gT5lanbww3e-42" value="推送消费消息&lt;div&gt;（也有拉取消费模式）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nGicNdcI3gT5lanbww3e-41">
+          <mxGeometry x="-0.1562" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="360" width="400" height="240" as="geometry" />
         </mxCell>
@@ -25,10 +33,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="360" width="400" height="150" as="geometry" />
+          <mxGeometry x="880" y="405" width="400" height="150" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Consumer消费者&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="360" width="130" height="30" as="geometry" />
+          <mxGeometry x="880" y="405" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGicNdcI3gT5lanbww3e-7" target="nGicNdcI3gT5lanbww3e-1">
           <mxGeometry relative="1" as="geometry" />
@@ -38,11 +46,19 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nGicNdcI3gT5lanbww3e-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGicNdcI3gT5lanbww3e-7" target="nGicNdcI3gT5lanbww3e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGicNdcI3gT5lanbww3e-40" value="发送消息&lt;div&gt;（也有ack机制）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nGicNdcI3gT5lanbww3e-39">
+          <mxGeometry x="-0.2187" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="360" width="400" height="150" as="geometry" />
+          <mxGeometry x="-240" y="405" width="400" height="150" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Producer生产者&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="360" width="130" height="30" as="geometry" />
+          <mxGeometry x="-240" y="405" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NameServer服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="155" width="120" height="60" as="geometry" />
@@ -82,22 +98,22 @@
           <mxGeometry x="561.25" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Consumer服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="414" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-30" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Consumer服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="414" width="120" height="60" as="geometry" />
+          <mxGeometry x="1020" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-31" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Consumer服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="414" width="120" height="60" as="geometry" />
+          <mxGeometry x="1150" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Producer服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="414" width="120" height="60" as="geometry" />
+          <mxGeometry x="-230" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-33" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Producer服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="414" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nGicNdcI3gT5lanbww3e-34" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Producer&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="414" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="459" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
