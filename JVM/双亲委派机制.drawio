@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
   <diagram name="第 1 页" id="Wop6GnL1D2NpdafHKHPj">
-    <mxGraphModel>
+    <mxGraphModel dx="994" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VhD-dyId-QNTnQPDRzDq-1" target="VhD-dyId-QNTnQPDRzDq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-10" value="&lt;div&gt;（如果本加载器没有找到）&lt;/div&gt;委托子加载&lt;div&gt;器加载&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VhD-dyId-QNTnQPDRzDq-6">
+          <mxGeometry x="-0.26" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-1" value="&lt;h4 style=&quot;box-sizing: border-box; white-space-collapse: preserve; break-after: avoid-page; break-inside: avoid; orphans: 4; font-size: 1.25em; margin-top: 1rem; margin-bottom: 1rem; position: relative; line-height: 1.4; cursor: text; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;SF Pro&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;md-end-block md-heading md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;Bootstrap ClassLoader&lt;/span&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VhD-dyId-QNTnQPDRzDq-2" target="VhD-dyId-QNTnQPDRzDq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;委托父加载&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;器查找&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VhD-dyId-QNTnQPDRzDq-5">
+          <mxGeometry x="0.08" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VhD-dyId-QNTnQPDRzDq-2" target="VhD-dyId-QNTnQPDRzDq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-11" value="（如果本加载器没有找到）&lt;div&gt;委托子加载&lt;div&gt;器加载&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VhD-dyId-QNTnQPDRzDq-7">
+          <mxGeometry x="-0.14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-2" value="&lt;h4 style=&quot;box-sizing: border-box; white-space-collapse: preserve; break-after: avoid-page; break-inside: avoid; orphans: 4; font-size: 1.25em; margin-top: 1rem; margin-bottom: 1rem; position: relative; line-height: 1.4; cursor: text; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;SF Pro&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;md-end-block md-heading md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;Extension ClassLoader&lt;/span&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VhD-dyId-QNTnQPDRzDq-3" target="VhD-dyId-QNTnQPDRzDq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;委托父加载&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;器查找&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VhD-dyId-QNTnQPDRzDq-4">
+          <mxGeometry x="-0.08" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VhD-dyId-QNTnQPDRzDq-3" value="&lt;h4 style=&quot;box-sizing: border-box; white-space-collapse: preserve; break-after: avoid-page; break-inside: avoid; orphans: 4; font-size: 1.25em; margin-top: 1rem; margin-bottom: 1rem; position: relative; line-height: 1.4; cursor: text; caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;SF Pro&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;md-end-block md-heading md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;Application ClassLoader&lt;/span&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="250" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
