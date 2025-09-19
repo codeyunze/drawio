@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
   <diagram name="第 1 页" id="hOOrDv0esRKk28Z3hrDA">
-    <mxGraphModel>
+    <mxGraphModel dx="994" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-2" style="edgeStyle=none;curved=1;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;strokeColor=#B20000;strokeWidth=4;fillColor=#e51400;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="329.5" as="sourcePoint" />
+            <mxPoint x="480" y="329.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-3" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="249" width="120" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-4" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="249" width="120" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-5" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="248" width="120" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-6" value="理解为用户" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-7" value="理解为百度" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-8" value="理解为微信" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="770" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-9" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;需要访问&lt;/span&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;百度，但是&lt;/span&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;用微信账号&lt;/span&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;密码去登录&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="326" y="274" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-10" value="百度携带用户的微信账&lt;br&gt;号密码，到微信去申请&lt;br&gt;授权令牌" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="616" y="262" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-11" value="&lt;span style=&quot;font-size: 18px&quot;&gt;第三方客户端&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="269" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-12" value="&lt;span style=&quot;font-size: 18px&quot;&gt;资源拥有者&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="269" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-13" value="&lt;span style=&quot;font-size: 18px&quot;&gt;授权服务中心&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="269" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-14" value="微信返回授权页面，直接&lt;br&gt;找用户确认是否授权" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="611" y="369" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-15" value="用户授权" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="366" y="479" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-16" value="微信重定向百度页面，&lt;br&gt;并返回授权码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="616" y="569" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-17" value="携带授权码申请令牌" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="626" y="659" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-18" value="微信返回授权令牌" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="631" y="739" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-19" style="edgeStyle=none;curved=1;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;strokeColor=#B20000;strokeWidth=4;entryX=0.002;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e51400;" edge="1" parent="1" target="WQAmQWzD_VF29rQXfdy1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="766" y="330" as="targetPoint" />
+            <mxPoint x="600" y="329.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-20" style="edgeStyle=none;curved=1;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=12;strokeColor=#A50040;strokeWidth=4;fillColor=#d80073;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="689" as="sourcePoint" />
+            <mxPoint x="770" y="688.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-21" style="edgeStyle=none;curved=1;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;strokeColor=#B09500;strokeWidth=4;fillColor=#e3c800;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="408" as="sourcePoint" />
+            <mxPoint x="310" y="407.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-22" style="edgeStyle=none;curved=1;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;strokeColor=#006EAF;strokeWidth=4;fillColor=#1ba1e2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="609.5" as="sourcePoint" />
+            <mxPoint x="600" y="609.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-23" style="edgeStyle=none;curved=1;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;strokeColor=#82b366;strokeWidth=4;fillColor=#d5e8d4;gradientColor=#97d077;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="766.9999999999998" as="sourcePoint" />
+            <mxPoint x="600" y="767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQAmQWzD_VF29rQXfdy1-24" style="edgeStyle=none;curved=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;strokeColor=#0e8088;strokeWidth=4;fillColor=#b0e3e6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="508" as="sourcePoint" />
+            <mxPoint x="770" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
