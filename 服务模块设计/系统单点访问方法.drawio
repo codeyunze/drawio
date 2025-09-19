@@ -1,9 +1,173 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
   <diagram name="第 1 页" id="nF31PCtsK5eZKOa4uO_k">
-    <mxGraphModel>
+    <mxGraphModel dx="994" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-3" target="BYINvSZ6ewF7rswRVx0l-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-2" value="备案" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BYINvSZ6ewF7rswRVx0l-1">
+          <mxGeometry x="-0.1263" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-3" value="第三方系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-4" value="云梦泽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-5" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;第三方系统先在“云梦泽”系统上备案单点应用信息&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="620" height="620" as="geometry">
+            <mxRectangle x="20" y="210" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-7" value="&lt;b&gt;如果第三方系统是信任的应用，比如是同公司的其他应用&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-6">
+          <mxGeometry x="22.5" y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-8" value="第三方系统在后端访问如下地址&lt;div&gt;http://3xj.club/sso?clientId=第三方系统备案Id&amp;amp;clientSecret=第三方系统备案秘钥&amp;amp;username=用户名称&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-6">
+          <mxGeometry x="5" y="220" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-9" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="140" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-10" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="140" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-11" value="第三方系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-12" value="云梦泽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-14" target="BYINvSZ6ewF7rswRVx0l-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-14" value="请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="460" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-15" value="认证" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-17" target="BYINvSZ6ewF7rswRVx0l-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-17" value="跳转" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="595" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-18" value="接收" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="595" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-19" value="“云梦泽”系统校验通过第三方系统的clientId和clientSecret之后，&lt;div&gt;会将请求重定向到第三方系统事先备案的地址&lt;div&gt;http://dsf.com/sso?accessToken=云梦泽的token&amp;amp;username=用户名称&amp;amp;roles=权限&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="540" width="525" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-21" target="BYINvSZ6ewF7rswRVx0l-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-21" value="请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-22" value="响应" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-23" value="第三方系统访问“云梦泽”系统页面&lt;div&gt;http://3xj.club/#/welcomeu?sername=用户名&amp;amp;roles=权限&amp;amp;accessToken=云梦泽的token&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="690" width="525" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-24" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="715" height="910" as="geometry">
+            <mxRectangle x="20" y="210" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-25" value="&lt;b&gt;如果第三方系统想使用“云梦泽”系统的账号来做登录，操作流程如下&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-24">
+          <mxGeometry x="22.5" y="20" width="287.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-26" value="第三方系统访问“云梦泽”的统一认证页面，如下地址&lt;div&gt;&lt;div&gt;https://3xj.club.com/oauth/authorize?client_id=123&amp;amp;response_type=code&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-24">
+          <mxGeometry x="47.5" y="200" width="525" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-27" value="第三方系统的用户在“云梦泽”的统一认证页面输入用户在“云梦泽”系统的账号密码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-24">
+          <mxGeometry x="47.5" y="340" width="525" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-28" value="第三方系统携带授权码请求“云梦泽”获取accountToken&lt;div&gt;&lt;div&gt;http://3xj.club/oauth/token?grant_type=authorization_code&amp;amp;client_id=123&amp;amp;client_secret=456&amp;amp;code=F92Ks1&amp;amp;redirect_uri=http://127.0.0.1&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-24">
+          <mxGeometry x="6.25" y="600" width="607.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-29" value="“云梦泽”系统校验完授权码、应用信息后，会返回访问令牌accountToken" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-24">
+          <mxGeometry x="52.5" y="710" width="525" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-30" value="第三方系统可以使用accountToken去访问“云梦泽”系统许可的功能，也可以访问自己的系统，&lt;div&gt;具体看双方的需求&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-24">
+          <mxGeometry x="52.5" y="790" width="525" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-31" value="此操作的好处是，直接可以使用“云梦泽”系统账号体系，&lt;div&gt;并且，在登录期间，用户输入的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;“云梦泽”系统账号密码，不会经过第三方系统，第三方系统无法获取到用户的账号信息，用户的信息不回有泄露的风险。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BYINvSZ6ewF7rswRVx0l-24">
+          <mxGeometry x="360" y="10" width="336" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-32" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="785" y="290" width="140" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-33" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="290" width="140" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-34" value="第三方系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-35" value="云梦泽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-37" target="BYINvSZ6ewF7rswRVx0l-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-37" value="请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="835" y="460" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-38" value="响应" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="460" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-39" value="认证" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="595" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-41" target="BYINvSZ6ewF7rswRVx0l-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-41" value="输入&lt;div&gt;密码&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="835" y="595" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-42" value="接收" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="835" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-44" target="BYINvSZ6ewF7rswRVx0l-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-44" value="跳转" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-45" value="“云梦泽”系统页面会跳转到第三方系统之前备案的重定向地址，并携带授权码&lt;div&gt;http://dsf.com?code=F92Ks1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="690" width="525" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-47" target="BYINvSZ6ewF7rswRVx0l-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-47" value="后端&lt;div&gt;请求&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="835" y="870" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-49" target="BYINvSZ6ewF7rswRVx0l-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-49" value="认证&lt;div&gt;授权码&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="870" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYINvSZ6ewF7rswRVx0l-51" target="BYINvSZ6ewF7rswRVx0l-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-51" value="请求" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="835" y="1020" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYINvSZ6ewF7rswRVx0l-52" value="响应" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="1020" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
