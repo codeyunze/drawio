@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
   <diagram name="第 1 页" id="x-oJtIeWXYRco10QeKby">
-    <mxGraphModel>
+    <mxGraphModel dx="994" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="200" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;一个main线程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="305" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="370" y="345" width="160" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;栈&lt;/b&gt;&lt;/font&gt;（这一线程专属）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="345" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="378" width="140" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RpiMfUR1Hj0vSv9lA003-7" target="RpiMfUR1Hj0vSv9lA003-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-7" value="局部变量表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="416" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-8" value="方法出口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="535" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-9" value="动态链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="495" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RpiMfUR1Hj0vSv9lA003-10" target="RpiMfUR1Hj0vSv9lA003-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-10" value="操作数栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="455" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-11" value="某一方法的栈帧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="378" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-12" value="某一方法的栈帧" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="605" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="304" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="465" width="160" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-36" value="a = 0x0001" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="319" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-37" value="b = 0x0002" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-39" value="10000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="564" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-40" value="10086" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="496.5" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-42" value="内存地址：0x0001" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="467" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RpiMfUR1Hj0vSv9lA003-43" value="内存地址：0x0002" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="535" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
